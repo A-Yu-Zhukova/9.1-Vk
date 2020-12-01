@@ -7,6 +7,7 @@ public class StatisticsInfo {
     private int sharesCount;
     private int commentsCount;
     private int viewsCount;
+    private boolean userLikes;
 
     public boolean getLike() {
         return like;
@@ -56,4 +57,11 @@ public class StatisticsInfo {
         this.viewsCount = viewsCount;
     }
 
+    public boolean getUserLikes() {
+        return userLikes;
+    }
+
+    public void setUserLikes(boolean userLikes) {
+        this.userLikes = userLikes;
+    }
 }

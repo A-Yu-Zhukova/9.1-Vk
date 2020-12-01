@@ -6,6 +6,9 @@ public class CommentsInfo {
     private String commentAnswer;
     private int commentAnswerCount;
     private String commentDate;
+    private boolean groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 
     public int getCount() {
         return count;
@@ -47,4 +50,27 @@ public class CommentsInfo {
         this.commentDate = commentDate;
     }
 
+    public boolean getGroupsCanPost() {
+        return groupsCanPost;
+    }
+
+    public void setGroupsCanPost(boolean groupsCanPost) {
+        this.groupsCanPost = groupsCanPost;
+    }
+
+    public boolean getCanClose() {
+        return canClose;
+    }
+
+    public void setCanClose(boolean canClose) {
+        this.canClose = canClose;
+    }
+
+    public boolean getCanOpen() {
+        return canOpen;
+    }
+
+    public void setCanOpen(boolean canOpen) {
+        this.canOpen = canOpen;
+    }
 }
