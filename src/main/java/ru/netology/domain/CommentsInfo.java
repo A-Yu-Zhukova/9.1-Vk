@@ -46,4 +46,5 @@ public class CommentsInfo {
     public void setCommentDate(String commentDate) {
         this.commentDate = commentDate;
     }
+
 }
