@@ -1,20 +1,19 @@
 package ru.netology.domain;
 
 public class StatisticsInfo {
-    private boolean like;
+    private boolean canLike;
     private int likesCount;
     private boolean canShare;
     private int sharesCount;
-    private int commentsCount;
     private int viewsCount;
     private boolean userLikes;
 
-    public boolean getLike() {
-        return like;
+    public boolean getCanLike() {
+        return canLike;
     }
 
-    public void setLike(boolean like) {
-        this.like = like;
+    public void setLike(boolean canLike) {
+        this.canLike = canLike;
     }
 
     public int getLikesCount() {
